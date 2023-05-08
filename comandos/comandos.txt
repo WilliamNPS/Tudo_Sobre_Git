@@ -1,0 +1,89 @@
+1. Permitir acesso a pasta 
+<!-- Comando git init  !>
+
+2.  Verificar quais arquivos estão no controle de versão e quais foram modificados 
+<!-- git status --> 
+
+3. Adicionar o documento pra fazer o controle de versão 
+<!-- git add "Nome do aquivo ou texto"  --->
+
+4. adicionar todos os documentos de uma vez so para o controle de versão 
+<!-- git add .-->.
+
+6. configurar o git para ter um controle de quem fez o devivo commit 
+git config --global user.email "seuemaim@hotmal.com"
+git config --global user.name "seuemaim@hotmal.com"
+
+6. fazer um commit e informa o que vc fez nesta nvova versão 
+<!-- git commit -m "Mensagem informando o que vc fez"  -->
+
+7. definir para onde vc vai enviar o seu codigo 
+<!--  git remote add origin https://link do locan do github onde vc quer colocar  --->
+
+8. definir a brand  onde vc vai colocar o codigo. esse é o master ou seja tudo,normalmente utilizado 
+<!-- git push --set-upstream origin master -->
+
+9. colocar o codigo da nuvem e enviar pro github
+<!-- git push -->
+
+10. verificar historico de atualizaçoes 
+git reflog
+
+                  Temas mais avançados branch
+//////////////////////////////////////////////////////////////
+
+11. caso cometido um erro retorna para o codigo antigo 
+<!-- git reset --hard sds32432<- no caso aqui seria o id do commit que vc fez anteriormente -->
+
+
+12. verificar quantas branch tem  
+<!-- git branch  --->
+
+
+13. criar uma nova branch 
+<! -- git branch nomedabranch -->
+
+14.  mudar de branch 
+<!-- git checkout nomedabranch --->
+
+
+14.1 para criar a nova branch na nuvem apenas  depois de escreve git push 
+14.2 para enviar vai gerar outro texto vc copia e envia
+14.3 normalmente o codigo é parecido com esse  git push --set-upstream origin primeirabranchgit
+
+14. Deletar Branch 
+<!-- git branch -d nomeDoBranchLocal -->
+
+15 excluir um branch remoto
+<!-- git push origin --delete nomeDoBranchRemoto -->
+
+16. Atualizar o código para uma versão mais recente 
+<!-- git pull  -->
+           Fazer margin 
+/////////////////////////////////////////
+
+17. Fazer merger
+<!-- git merge nome da branch que vc que fazer merge -->
+
+          
+             Pull Request
+/////////////////////////////////////////////
+É feito dentro do proprio github
+
+
+
+      Git Ignore
+//////////////////////////////////////////////
+18. iGNORAR UM ARQUIVO NOVO OU ALTERA E OCULTADO 
+<!--touch .gitigonore   -->
+18. Apos digitar isso no git ,criara um arquivo na pasta ,abra o bloco de notas,e coloque 
+    o nome da pasta desta forma arquivoOUpasta/ ou foto.png
+    
+
+
+
+
+
+
+
+
